@@ -13,6 +13,6 @@ jobs:
           - name: Display Received application Information
             run: |
               echo "SecOps Repo received Application trigger"
-              echo "Application Repository: ${{github.event.client_payload.repository}}"
+              echo "Application Repository: ${{ github.event.client_payload.repository }}"
               echo "Application Branch: ${{ github.event.client_payload.branch }}"
-              echo "Application Commit SHA: ${{github.event.client_payload.commit_sha}}"
+              echo "Application Commit SHA: ${{ github.event.client_payload.commit_sha }}"
