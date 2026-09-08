@@ -44,6 +44,6 @@ jobs:
 
       - name: step4A - List Scanned Files
         run: |
-            echo "Files Inside Gitleaks Scaning Scope :"
-            echo "====================================="
-            find application -type f -print
+          echo "Files Inside Gitleaks Scaning Scope :"
+          echo "====================================="
+          find application -type f -print
